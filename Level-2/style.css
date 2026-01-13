@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8FAFC;
+  color: #111827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  background: #ffffff;
+  width: 100%;
+  max-width: 420px;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin: 0;
+  color: #1E3A8A;
+}
+
+.subtitle {
+  margin-top: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #CBD5E1;
+  transition: border 0.2s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #3B82F6;
+}
+
+.status {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #6B7280;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.profile {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.profile img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.profile-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #4B5563;
+}
+
+.profile-info a {
+  font-size: 14px;
+  color: #3B82F6;
+  text-decoration: none;
+}
+
+.profile-info a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #EF4444;
+}
