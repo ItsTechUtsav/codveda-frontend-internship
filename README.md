@@ -1,6 +1,6 @@
-# Codveda Frontend Internship Tasks
+# Frontend Tasks
 
-This repository contains the frontend tasks completed as part of my internship at Codveda Technology.
+This repository contains the frontend Tasks.
 
 The work is organized level-wise to show a clear progression from basic concepts to more advanced frontend skills.
 
